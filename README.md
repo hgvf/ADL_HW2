@@ -28,6 +28,7 @@ python run_qa.py <training_arguments>
 - - -
 ### Reproduce the result
 
+you can change the device you want in run.sh
 ```
 bash download.sh
 bash run.sh <path_to_context_file> <path_to_test_file> <path_to_save_predicted_result>
